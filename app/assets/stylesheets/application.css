@@ -1,0 +1,25 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+body {
+  background: rgba(243,226,199,1);
+background: -moz-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 13%, rgba(182,141,76,1) 82%, rgba(233,212,179,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(243,226,199,1)), color-stop(13%, rgba(193,158,103,1)), color-stop(82%, rgba(182,141,76,1)), color-stop(100%, rgba(233,212,179,1)));
+background: -webkit-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 13%, rgba(182,141,76,1) 82%, rgba(233,212,179,1) 100%);
+background: -o-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 13%, rgba(182,141,76,1) 82%, rgba(233,212,179,1) 100%);
+background: -ms-linear-gradient(left, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 13%, rgba(182,141,76,1) 82%, rgba(233,212,179,1) 100%);
+background: linear-gradient(to right, rgba(243,226,199,1) 0%, rgba(193,158,103,1) 13%, rgba(182,141,76,1) 82%, rgba(233,212,179,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3e2c7', endColorstr='#e9d4b3', GradientType=1 );
+}
